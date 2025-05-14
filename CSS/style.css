@@ -1,0 +1,352 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #ad786349;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 30px;
+}
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 80px;
+    margin-right: 15px;
+}
+.header-text {
+    text-align: left;
+}
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #8d4122;
+    
+
+
+
+
+    
+    
+}
+.header-text p {    
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+}
+nav {
+    
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    background-color: #b88a6b;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-family:  'Arial Narrow';
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.content {
+    background: white;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    width: 60%;
+
+}
+.content p{
+text-align: justify;
+font-size: 20px;
+}
+.sidebar {
+    background: #fff5e3;
+    padding: 50px;
+    width: 12%;
+    font-family:  'Arial Narrow';
+    }
+footer {
+       background-color:  #ad786349;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.lista-servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0;
+    list-style-type: disc;
+    font-family:  'Arial Narrow';
+   
+}
+.lista-servicios li {
+    
+    padding: 10px;
+    border-radius: 5px;
+    list-style-position: inside;
+}
+
+h2 {
+    color: #8d4122;
+font-family:'Times New Roman';
+font-size: 35px; 
+   
+}
+.esca {
+width: 500px;
+
+}
+.sidebar p{
+    text-align: justify;  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'serif';
+    background-color: #ece6e6;
+}
+h1 {
+    color: #8d4122;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#encabezado .menu{
+    width: 590px;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+    border: 0px solid;
+    font-size: 25px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    line-height: 2.5rem;
+  
+}
+
+.menu ul{
+    position: absolute;
+}
+
+nav a{
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 20px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+    float: right;
+    font-size: 10px;
+}
+
+
+
+.menu{
+   
+    display: table;
+    height: auto;
+}
+
+.menu >li{
+    float: left;
+}
+
+
+nav li li{
+    background: #771515;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .1s;
+   
+}
+
+nav li:hover > ul > li{
+   max-height: 300px;
+   overflow: visible; 
+}
+
+.menu > li > ul{
+top:50%;
+}
+
+
+.menu ul ul{
+left:50%; 
+top: 0;
+}
+
+h3 {
+    color: #8d4122;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+
+font-size: 10px;
+
+}
+
+
+.img1 {
+
+    height: 280px;
+     margin-left: 50px;
+     float: right;
+}
+    
+
+
+ol {
+   font-size: 20px; 
+}
+
+
+
+.mapa {
+
+ height: 280px;
+     margin-right: 50px;
+     float: left;
+
+
+
+}
+
+.img1
+{
+
+    height: 280px;
+     margin-left: 50px;
+     float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #332d2d;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #4caf50;
+    color: rgb(245, 242, 242);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #12696d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+	form {
+		padding: 10px;
+	}
+    nav li li{
+   
+   padding: 10px;
+}
+
+    
+
+	
+}
+
